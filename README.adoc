@@ -1,7 +1,8 @@
 = AEF | Device Localization Label Encoder
 :imagesdir: assets/images
 
-The information is encoded in a byte value representation.
+The https://en.wikipedia.org/wiki/ISO_11783[ISO 11783] standard specifies a serial data network for control and communications on forestry and agricultural machines.
+Every device in the ISOBUS network has a label given by device to identify the device descriptor localization. ( defined in https://www.iso.org/standard/74366.html[11783-10]) that contains information about the lanaguage command PGN defined in https://www.iso.org/standard/59380.html[ISO 11783-7]. The information is encoded in a byte value representation.
 
 == Supporters & Maintainers
 

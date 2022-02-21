@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.saschadoemer.aef</groupId>
-    <artifactId>device-localization-label-encoder</artifactId>
+    <groupId>de.saschadoemer.iso11873</groupId>
+    <artifactId>isobus-device-localization-label-encoder</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>AEF | Device Localization Label Encoder</name>
+    <name>ISO 11873-7 | Device Localization Label Encoder</name>
     <packaging>jar</packaging>
 
-    <url>https://github.com/saschadoemer/aef-device-localization-label-encoder</url>
+    <url>https://github.com/saschadoemer/isobus-device-localization-label-encoder</url>
     <licenses>
         <license>
             <name>Apache License Version 2.0</name>
@@ -24,15 +24,15 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git:github.com/saschadoemer/aef-device-localization-label-encodergit</connection>
-        <developerConnection>scm:git:git@github.com:saschadoemer/aef-device-localization-label-encoder.git </developerConnection>
-        <url>https://github.com/saschadoemer/aef-device-localization-label-encoder</url>
+        <connection>scm:git:git:github.com/saschadoemer/isobus-device-localization-label-encoder.git</connection>
+        <developerConnection>scm:git:git@github.com:saschadoemer/isobus-device-localization-label-encoder.git </developerConnection>
+        <url>https://github.com/saschadoemer/isobus-device-localization-label-encoder</url>
     </scm>
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub DKE-Data Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/saschadoemer/aef-device-localization-label-encoder</url>
+            <url>https://maven.pkg.github.com/saschadoemer/isobus-device-localization-label-encoder</url>
         </repository>
     </distributionManagement>
     <repositories>
