@@ -1,0 +1,36 @@
+= AEF | Device Localization Label Encoder
+:imagesdir: assets/images
+
+The information is encoded in a byte value representation.
+
+== Supporters & Maintainers
+
+image::lmis.svg[agrirouter]
+
+The LMIS AG is a recognised german IT service company, certified according to DIN EN ISO 9001:2015 and based in Osnabrück, Berlin, Friedland and Wuppertal.
+Our core competence is the individual development, optimisation and support of IT solutions.
+We also provide professional IT consulting services and training courses.
+We have been supporting the whole project during the development in the field of test management and are currently responsible for the development support of the platform.
+
+== The current project you’re looking at
+
+This project contains a simple encoder for the binary values and can be used in every other project.
+
+== Releases
+
+The release workflow follows the Microsoft DevOps Release Model where a release shows up as a branch in the repository.
+
+== Integration
+
+You can find the packages right https://github.com/saschadoemer?tab=packages[here] and there is an integration guide for maven package right https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry[here]. Feel free to integrate the package within your project.
+
+[source,xml]
+<dependency>
+    <groupId>de.saschadoemer.aef</groupId>
+    <artifactId>device-localization-label-encoder</artifactId>
+    <version>${client-name-decoder.version}</version>
+</dependency>
+
+=== Contact and interaction
+
+You found a bug? Great! Please send me a note or add an issue to the project, so I can fix it. If you want to participate, feel free to create a PR and contribute to the project.
