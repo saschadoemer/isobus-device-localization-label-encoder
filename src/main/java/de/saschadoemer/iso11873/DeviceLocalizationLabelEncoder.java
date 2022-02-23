@@ -157,7 +157,7 @@ public final class DeviceLocalizationLabelEncoder {
         binaryRepresentation[10] = volumeUnit.isBit_2() ? '1' : '0';
 
         binaryRepresentation[9] = massUnit.isBit_1() ? '1' : '0';
-        binaryRepresentation[SINGLE_BYTE] = massUnit.isBit_2() ? '1' : '0';
+        binaryRepresentation[8] = massUnit.isBit_2() ? '1' : '0';
 
         binaryRepresentation[7] = temperatureUnits.isBit_1() ? '1' : '0';
         binaryRepresentation[6] = temperatureUnits.isBit_2() ? '1' : '0';
